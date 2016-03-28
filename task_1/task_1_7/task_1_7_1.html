@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task_1_7_1</title>
+    <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+    }
+    body{
+        background-color: white;
+    }
+    .header{
+        height: 56px;
+    }
+    .header h1{
+        margin-left: 60px;
+        width: 100px;
+        font: 21px/56px "黑体";
+    }
+    .link-list, .login{
+        float: right;
+        font: 14px "微软雅黑";
+        height: 56px;
+    }
+    .link-list li{
+        display: inline-block;
+        width: 65px;
+        padding: 20px 0 14px;
+        margin-right: 30px;
+        text-align: center;
+    }
+    .link-list li:hover{
+        color: #e74f4d;
+        cursor: pointer;
+        border-bottom: 5px solid #e74f4d;
+    }
+    .login{
+        margin-right: 65px;
+        line-height: 60px;
+    }
+    .banner{
+        position: relative;
+        height: 940px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .experience{
+        position: absolute;
+        top: 220px;
+        left: 115px;
+        color: white;
+    }
+    .experience h2{
+        font: 60px "微软雅黑";
+    }
+    .experience p{
+        font: 21px "微软雅黑";
+        margin: 20px 0 60px;
+        width: 300px;
+    }
+    .begin{
+        width: 330px;
+        height: 60px;
+        background-color: #e74f4d;
+        font: 30px/2 "微软雅黑";
+        text-align: center;
+    }
+    .intro{
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        background-color: white;
+    }
+    .intro-item{
+        display: inline-block;
+        box-sizing: border-box;
+        width: 24.5%;
+    }
+    .intro-item img{
+        width: 42px;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="login">登陆</div>
+        <ul class="link-list">
+            <li>首页</li>
+            <li>最新活动</li>
+            <li>项目介绍</li>
+            <li>爱心社区</li>
+            <li>关于我们</li>
+        </ul>
+        <h1>新世界</h1>
+    </div>
+    <div class="banner">
+        <img src="img/banner.jpg">
+        <div class="experience">
+            <h2>Time of new life</h2>
+            <p>新时代，年轻的人们让我们一起体验新生活，享受新生活</p>
+            <div class="begin">开始体验</div>
+        </div>
+        <div class="intro">
+            <ul class="intro-list">
+                <li class="intro-item">
+                    <div>
+                        <img src="img/intro1.png" alt="">
+                        <p>打造全新世界观，让你更爱你的生活</p>
+                    </div>
+                </li>
+                <li class="intro-item">
+                    <div>
+                        <img src="img/intro2.png" alt="">
+                        <p>丰富多彩的公益活动，发挥新世界的主人公意识</p>
+                    </div>
+                </li>
+                <li class="intro-item">
+                    <div>
+                        <img src="img/intro3.png" alt="">
+                        <p>时尚的新理念，超前体验未知的生活</p>
+                    </div>
+                </li>
+                <li class="intro-item">
+                    <div>
+                        <img src="img/intro4.png" alt="">
+                        <p>完善的培养机制，培养你全新的世界观</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="about"></div>
+    <div class="new-world"></div>
+    <div class="footer"></div>
+</body>
+</html>
